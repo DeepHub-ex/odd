@@ -1,0 +1,70 @@
+TAG 태그 -> 옷에 있는 태그는 옷을 설명
+HTML 태그 -> HTML 설명 
+
+글자진하게<strong></strong>
+밑줄<u></u>
+글자제목헤드,줄바꿈<h1></h1>
+줄바꿈<br>
+단락구분<p></p>
+태그와태그사이의 여백=margin
+li부모태그,2대가같이<ul></ul>
+리스트,목록<li></li>
+li부모태그,자동숫자<ol></ol>
+표작성,3대가같이<table></table>
+<tr></tr>
+<td></td>
+페이지제목<title></title>
+~형식으로읽어라<meta>
+문자규칙,utf-8형식으로읽어라
+해당형태로 저장되어있다<meta charset="utf-8">
+html문서라는표시<html></html>
+본문을설명하는부분이라는표시<head></head>
+본문내용이라는표시<body></body>
+anchor배가정박할때쓰는닻=링크걸기<a></a>
+href는 하이퍼(링크)+레퍼런스(주소참조)
+<a href="">링크클릭될내용</a>
+<a href="" target="_blank">링크클릭될내용</a>
+target="_blank" 는 a태그의 속성, 새창열기
+title 속성을 넣어줄수도 있다.
+<a href="" target="_blank" title="">링크클릭될내용</a>
+태그안에 태그를 넣어 속성을 줄수도 있다.
+<br>https://advancedwebranking.com/html/ </br>
+전세계 수많은 웹페이지 분석, 결과 정돈한 사이트
+
+<html></html>
+<head></head>
+<body></body>
+<title></title>
+<meta></meta>
+<div></div>
+<a></a>
+<script></script>
+<link></link>
+<img></img>
+<span></span>
+<p></p>
+<li></li>
+<ul></ul>
+<style></style>
+<br></br>
+<h1></h1>
+<h2></h2>
+<input></input>
+<form></form>
+<h3></h3>
+<nav></nav>
+<header></header>
+<footer></footer>
+<iframe></iframe>
+<strong></strong>
+<button></button>
+<i></i>
+
+https://unsplash.com/
+유용한 무료이미지 사이트
+
+Atom editor 에서 f3을 통해 검색(find)할 수 있고
+ctrl D 로 선택한 부분과 동일한 다음 것까지 복수 선택할 수 있습니다.
+그리고 ctrl alt . 으로 닫는 태그를 자동으로 입력할 수 있습니다.
+이 외에도 atom editor 내에서 crtl shift p를 통해 키보드 숏컷 키들을 볼 수 있습니다.
+작업 시간 단축에 많은 도움이 되니 필요하신것들 찾아보시면 좋을 것 같습니다.
