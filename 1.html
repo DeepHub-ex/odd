@@ -4,60 +4,20 @@
 <head>
   <title>WEB1 - HTML</title>
   <meta charset="utf-8">
-  <style>
-    a {
-      color:red;
-      text-decoration: none;
-    }
-    h1 {
-      font-size:45px;
-      text-align: center;
-      border-bottom: 1px solid gray;
-      margin: 0px;
-      padding: 20px;
-    }
-    ol {
-      color:red;
-      border-right: 1px solid gray;
-      width: 100px;
-      margin: 0;
-      padding-left: 33px;
-      padding-top: 20px;
-    }
-    #html_grid{
-      display: grid;
-      grid-template-columns: 150px 1fr;
-    }
-    #html_article_grid{
-      display: grid;
-      padding-left: 25px;
-    }
-    @media(max-width:1000px){
-      #html_grid {
-        display: block;
-      }
-      #html_grid ol{
-        border-right: none;
-      }
-
-      h1 {
-        border-bottom: none;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <!--본문의 내용-->
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <div id="html_grid">
+  <div id="grid">
     <ol>
       <li><a href="1.html">HTML</a></li>
       <li><a href="2.html">CSS</a></li>
       <li><a href="3.html">JavaScript</a></li>
     </ol>
 
-  <div id="html_article_grid">
+  <div id="article">
     <h2>HTML 이란 무엇인가?</h2>
     <p>
       <a href="web1_first.zip" download> 소스파일 다운 </a>
