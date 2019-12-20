@@ -4,110 +4,154 @@
 <head>
   <title>WEB1 - HTML</title>
   <meta charset="utf-8">
+  <style>
+    a {
+      color:red;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0px;
+      padding: 20px;
+    }
+    ol {
+      color:red;
+      border-right: 1px solid gray;
+      width: 100px;
+      margin: 0;
+      padding-left: 33px;
+      padding-top: 20px;
+    }
+    #html_grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #html_article_grid{
+      display: grid;
+      padding-left: 25px;
+    }
+    @media(max-width:1000px){
+      #html_grid {
+        display: block;
+      }
+      #html_grid ol{
+        border-right: none;
+      }
+
+      h1 {
+        border-bottom: none;
+      }
+    }
+  </style>
 </head>
 
 <!--본문의 내용-->
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <div id="html_grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
 
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
-  </ol>
-  <h2>HTML 이란 무엇인가?</h2>
+  <div id="html_article_grid">
+    <h2>HTML 이란 무엇인가?</h2>
+    <p>
+      <a href="web1_first.zip" download> 소스파일 다운 </a>
+    </p>
+    <p>
+      <input type="checkbox"><br>
+      <input type="checkbox"><br>
+      <input type="checkbox"><br>
 
-  <p>
-    <a href="web1_first.zip" download> 소스파일 다운 </a>
-  </p>
-  <p>
-    <input type="checkbox"><br>
-    <input type="checkbox"><br>
-    <input type="checkbox"><br>
+      <table border="1" bordercolor="blue" align="center">
+        <th>table1 th</th>
+        <th>table2 th</th>
+        <th>table3 th</th>
+        <tr bgcolor="green">
+          <td>1tr 1td</td>
+          <td>1tr 2td</td>
+          <td>1tr 3td</td>
+        </tr>
+        <tr>
+          <td>2tr 1td</td>
+          <td>2tr 2td</td>
+          <td bgcolor="yellow">2tr 3td</td>
+        </tr>
+      </table>
+    </p>
 
-    <table border="1" bordercolor="blue" align="center">
-      <th>table1 th</th>
-      <th>table2 th</th>
-      <th>table3 th</th>
-      <tr bgcolor="green">
-        <td>1tr 1td</td>
-        <td>1tr 2td</td>
-        <td>1tr 3td</td>
-      </tr>
-      <tr>
-        <td>2tr 1td</td>
-        <td>2tr 2td</td>
-        <td bgcolor="yellow">2tr 3td</td>
-      </tr>
-    </table>
-  </p>
+    <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/"
+      target="_blank" title="html5 specification">
+    Hypertext Markup Language (HTML)</a> is the standard markup
+    language for <strong>creating <u>web</u> pages</strong> and web
+    applications. Web browsers receive HTML documents from a web server or from
+    local storage and render them into multimedia web pages. HTML describes
+    the structure of a web page semantically and originally included cues for the
+    appearance of the document.</p>
+    <img src="coding.jpg" width="100%">
+    <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages.
+    With HTML constructs, images and other objects, such as interactive forms,
+    may be embedded into the rendered page. It provides a means to create structured
+    documents by denoting structural semantics for text such as headings,
+    paragraphs, lists, links, quotes and other items. </p>
+    <br><br><br>HTML elements are delineated by tags, written using angle brackets.
 
-  <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/"
-    target="_blank" title="html5 specification">
-  Hypertext Markup Language (HTML)</a> is the standard markup
-  language for <strong>creating <u>web</u> pages</strong> and web
-  applications. Web browsers receive HTML documents from a web server or from
-  local storage and render them into multimedia web pages. HTML describes
-  the structure of a web page semantically and originally included cues for the
-  appearance of the document.</p>
-  <img src="coding.jpg" width="100%">
-  <p style="margin-top:45px;">HTML elements are the building blocks of HTML pages.
-  With HTML constructs, images and other objects, such as interactive forms,
-  may be embedded into the rendered page. It provides a means to create structured
-  documents by denoting structural semantics for text such as headings,
-  paragraphs, lists, links, quotes and other items. </p>
-  <br><br><br>HTML elements are delineated by tags, written using angle brackets.
+    <p>
+    This paragraph
+    contains         a lot of spaces
+    in the source         code,
+    but the        browser
+    ignores it.
+    </p>
+    <p>
+    This paragraph
+    contains a lot of lines
+    in the source code,
+    but the browser
+    ignores it.
+    </p>
 
+    <h1>W3C h1 </h1>
+    <h2>W3C h2 </h2>
+    <h6>W3C h6 </h6>
+
+    https://advancedwebranking.com/html/<br>
+    전세계 수많은 웹페이지 분석, 결과 정돈한 사이트
+
+    <html></html>
+    <head></head>
+    <body></body>
+    <title></title>
+    <meta></meta>
+    <div></div>
+    <a></a>
+    <script></script>
+    <link></link>
+    <img></img>
+    <span></span>
+    <p></p>
+    <li></li>
+    <ul></ul>
+    <style></style>
+    <br></br>
+    <h1></h1>
+    <h2></h2>
+    <input></input>
+    <form></form>
+    <h3></h3>
+    <nav></nav>
+    <header></header>
+    <footer></footer>
+    <iframe></iframe>
+    <strong></strong>
+    <button></button>
+    <i></i>
+
+  </div>
+</div>
 </body>
 </html>
-
-<p>
-This paragraph
-contains         a lot of spaces
-in the source         code,
-but the        browser
-ignores it.
-</p>
-<p>
-This paragraph
-contains a lot of lines
-in the source code,
-but the browser
-ignores it.
-</p>
-
-<h1>W3C h1 </h1>
-<h2>W3C h2 </h2>
-<h6>W3C h6 </h6>
-
-https://advancedwebranking.com/html/<br>
-전세계 수많은 웹페이지 분석, 결과 정돈한 사이트
-
-<html></html>
-<head></head>
-<body></body>
-<title></title>
-<meta></meta>
-<div></div>
-<a></a>
-<script></script>
-<link></link>
-<img></img>
-<span></span>
-<p></p>
-<li></li>
-<ul></ul>
-<style></style>
-<br></br>
-<h1></h1>
-<h2></h2>
-<input></input>
-<form></form>
-<h3></h3>
-<nav></nav>
-<header></header>
-<footer></footer>
-<iframe></iframe>
-<strong></strong>
-<button></button>
-<i></i>
