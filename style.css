@@ -34,6 +34,10 @@ ol {
   padding-left: 33px;
   padding-top: 20px;
 }
+.text_border {
+	text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
 #grid ol {
   border-right: 1px solid gray;
   width: 100px;
